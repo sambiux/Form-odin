@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Geist+Mono:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Phetsarath:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+  font-family: 'ambleregular', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image1 {
+  position: absolute;
+  width: 35vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.sombreado {
+  position: absolute;
+  width: 35vw;
+  height: 20vh;
+  top: 16vh;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: opacity(0.56);
+}
+
+.image2 {
+  position: absolute;
+  width: 7vw;
+  height: 18vh;
+  left: 10vw;
+  top: 16vh;
+}
+
+.txt1 {
+  position: relative;
+  top: 0; 
+  left: 35vw;
+  margin-top: 0; 
+  width: 65%;
+  height: 36vh;
+  background-color: #F9FAFC;
+  font-size: 1.6em;
+  padding: 5rem;
+  font-family: 'ambleregular', sans-serif;
+  
+}
+
+.formulario1{
+  position: relative;
+  left: 35vw;
+  width: 65%;
+  height: 42vh ;
+  background-color: white;
+  padding: 5rem;
+  padding-top: 2rem;
+  font-family: 'ambleregular', sans-serif;;
+  box-shadow: 2px 2px 2px rgba(67, 66, 66, 0.5);
+  font-size: 1.4em;
+
+}
+
+.form-content1{
+  position: relative;
+  top: 3vh;
+  font-size: 0.6em;
+  
+  
+}
+
+
+input {
+  margin-bottom: 25px; 
+  padding: 6px;
+  border: 1px solid #000000 ;
+  border-radius: 4px;
+  width: 18vw;
+}
+
+
+.form-content2{
+  bottom: 25.9vh;
+  position: relative;
+  font-size: 0.6em;
+  left: 23vw;
+  
+  
+}
+
+button{
+ position: absolute;
+ left: 40vw;
+ top: 600px;
+ border: 1px solid black;
+ border-radius: 5px;
+ height: 38px;
+ width: 210px;
+ background-color: rgb(48, 122, 48);
+ color: white;
+ font-family: 'ambleregular', sans-serif;
+ font-size: 1em;
+ transition: box-shadow 0.3s ease, background-color 0.3s ease; ;
+
+}
+button:hover{
+  box-shadow: 5px 5px 5px black;
+}
+
+
+input:invalid {
+  border-color: blue;
+}
+
+input:valid {
+  border-color: green;
+}
+
+.last-txt{
+  position: absolute;
+  left: 40vw;
+  top: 670px;
+  font-family: 'ambleregular', sans-serif;
+}
+
+strong{
+  
+  color: green;
+}
+
+.text-image{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  left: 110px;
+  font-size: 0.6em;
+
+}
+

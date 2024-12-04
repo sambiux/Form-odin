@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign up Form </title>
+</head>
+<body>
+
+  <div class="img1-container">
+    <img src="halie-west-25xggax4bSA-unsplash.jpg" alt="plantas" class="image1"> 
+    <p class="text-image">Photo by  <u>Hale</u> <u>West</u>on <u>unsplash</u></p>
+  </div>
+
+  <div class="img2-container">
+    <img src="odin-lined.png" alt="odinImage" class="image2">
+  </div>
+
+  <div class="sombreado">
+    <p></p>
+  </div>
+
+  <div class="txt1">
+    <p>This is not a real online service! You know you need something
+       like this in your life to help you realize your deepest dreams.
+       Sign up now to get started.</p><br>
+
+    <p>You know you want to.</p>
+  </div>
+
+  <form action="#" method="POST">
+    <div class="formulario1">
+      <h5>Let´s do this!</h5>
+
+      <div class="form-content1">
+        <label for="name">FIRST NAME: </label><br>
+        <input type="text" id="name" name="name" required minlength="3" maxlength="13" placeholder="juan"><br>
+
+        <label for="email">EMAIL: </label><br>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Introduce una dirección de correo válida." placeholder="person@gmail.com"><br>
+
+        <label for="password">PASSWORD: </label><br>
+        <input type="password" id="password" name="password" required minlength="5" maxlength="13"><br>
+      </div>
+
+      <div class="form-content2">
+        <label for="last-name">LAST NAME: </label><br>
+        <input type="text" id="last-name" name="last-name" required minlength="3" maxlength="16" placeholder="palmer"><br>
+
+        <label for="phone">PHONE NUMBER: </label><br>
+        <input type="tel" id="phone" name="phone" required pattern="\d{10}" title="El número ingresado debe tener exactamente 10 dígitos" placeholder="2345654567"><br>
+
+        <label for="confirm-password">CONFIRM PASSWORD: </label><br>
+        <input type="password" id="confirm-password" name="confirm-password" required minlength="5" maxlength="13"><br>
+
+       
+      </div>
+
+      
+
+    </div>
+
+      <div class="boton1">
+        <button type="submit">Create Account</button>
+      </div>
+
+      <div class="last-txt">
+        <p>Already have an account?  <strong>Log in</strong></p>
+      </div>
+
+    
+  </form>
+
+</body>
+</html>
